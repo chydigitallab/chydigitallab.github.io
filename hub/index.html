@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ChY Digital Lab: о проекте</title>
+<meta name="description" content="Контроль всегда у человека. Опасен не ИИ, а неумение им управлять.">
+<meta name="theme-color" content="#04122A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+<style>
+:root{--bg:#04122A;--bg2:#071B3D;--text:#EAF6FF;--mute:#9DB9D6;--b:#7FC8FF;--b2:#A9DCFF;--m:#7CF0DC;--g:#FFD9A0;--line:rgba(255,255,255,.12);--ease:cubic-bezier(.2,.8,.2,1)}
+*{box-sizing:border-box}
+html{overflow-x:hidden;overflow-x:clip}
+body{margin:0;min-height:100vh;color:var(--text);font:17px/1.6 Onest,system-ui,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;background:radial-gradient(900px 560px at 85% -8%,rgba(127,200,255,.18),transparent 60%),radial-gradient(700px 520px at -5% 40%,rgba(255,217,160,.07),transparent 60%),linear-gradient(180deg,var(--bg),var(--bg2))}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+header{padding:56px 0 26px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.01em;color:var(--b2)}
+.brand i{font-style:normal;color:var(--b);text-shadow:0 0 14px rgba(127,200,255,.8)}
+h1{font-size:clamp(34px,6vw,58px);line-height:1.08;margin:18px 0 12px;font-weight:800;letter-spacing:-.02em}
+.lead{font-size:clamp(18px,2.4vw,22px);color:var(--b2);max-width:30em;margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:30px 0}
+.card{background:rgba(255,255,255,.055);border:1px solid var(--line);border-radius:18px;padding:22px 22px 20px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);opacity:0;transform:translateY(12px);animation:in .7s var(--ease) forwards}
+.card b{display:block;font-size:19px;margin-bottom:8px;color:#fff}
+.card b:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:10px;background:var(--b);box-shadow:0 0 10px var(--b);vertical-align:middle}
+.card:nth-child(3n+2) b:before{background:var(--g);box-shadow:0 0 10px var(--g)}
+.card:nth-child(3n) b:before{background:var(--m);box-shadow:0 0 10px var(--m)}
+.card p{margin:0;color:var(--mute);font-size:16px}
+@keyframes in{to{opacity:1;transform:none}}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 60px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:15px 28px;border-radius:999px;font:inherit;font-weight:700;text-decoration:none;border:1px solid var(--line);color:var(--text);background:rgba(255,255,255,.06);transition:transform .25s var(--ease),box-shadow .25s,background .25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px -10px rgba(127,200,255,.6);background:rgba(255,255,255,.1)}
+.btn.main{background:linear-gradient(135deg,var(--b),var(--b2));color:#04122A;border-color:transparent}
+:focus-visible{outline:2px solid var(--b2);outline-offset:3px}
+footer{padding:0 0 40px;color:var(--mute);font-size:14px}
+@media (prefers-reduced-motion:reduce){.card{animation:none;opacity:1;transform:none}.btn{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <div class="brand"><i>◉</i>ChY Digital Lab</div>
+  <h1>О проекте</h1>
+  <p class="lead">Контроль всегда у человека. Опасен не ИИ, а неумение им управлять.</p>
+ </header>
+ <main>
+  <section class="grid" aria-label="О проекте">
+    <article class="card" style="animation-delay:0ms"><b>Зачем нужна лаборатория</b><p>ИИ не заменит предпринимателя. Его заменит тот, кто умеет работать с ИИ. ChY Digital Lab помогает бизнесу и людям научиться этому без лишнего риска и сложных слов.</p></article>
+    <article class="card" style="animation-delay:80ms"><b>Что такое Лира</b><p>Лира — ИИ-ассистентка в образе голограммы. Она слушает человека, отвечает, предлагает идеи и раздаёт задачи агентам. Что-то вроде Джарвиса для вашего дела.</p></article>
+    <article class="card" style="animation-delay:160ms"><b>Как она работает</b><p>За лицом и голосом Лиры стоит реальный ИИ. Она ведёт офис помощников: тексты, ответы клиентам, отчёты, напоминания. Важное решает и подтверждает человек.</p></article>
+    <article class="card" style="animation-delay:240ms"><b>Три направления</b><p>Бизнес: ассистент и ИИ-офис. Обучение: курсы и консультации. Дом: «Лира Дом», приватный ИИ-помощник для семьи. Это направление пока в разработке.</p></article>
+    <article class="card" style="animation-delay:320ms"><b>С чего начать</b><p>Расскажите о своей задаче в двух-трёх строках. Вместе разберём, что можно доверить помощнику уже сейчас, и соберём решение под вас.</p></article>
+    <article class="card" style="animation-delay:400ms"><b>Честность прежде всего</b><p>Мы не обещаем невозможного и не выдумываем цифры. Если надёжных данных нет, Лира так и скажет. Демо мы всегда помечаем как демо.</p></article>
+  </section>
+  <nav class="cta" aria-label="Куда дальше">
+   <a class="btn main" href="/">Сайт →</a>
+   <a class="btn" href="/card.html">Визитка-пропуск →</a>
+   <a class="btn" href="https://www.instagram.com/chy_digital_lab/" target="_blank" rel="noopener">Instagram →</a>
+   <a class="btn" href="https://www.facebook.com/profile.php?id=61594962578251" target="_blank" rel="noopener">Facebook →</a>
+  </nav>
+ </main>
+ <footer>ChY Digital Lab · лаборатория цифровых инноваций</footer>
+</div>
+</body>
+</html>
